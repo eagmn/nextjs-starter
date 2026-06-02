@@ -5,7 +5,7 @@ export default function Home() {
     <main className="main">
       <div>
         <h2>Hello World</h2>
-        <h1>Change</h1>
+        {/* <h1>Change</h1> */}
       </div>
       <Link href="/about">About</Link>
     </main>
