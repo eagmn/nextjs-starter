@@ -24,7 +24,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: npx changeset tag #create a release
+          publish: npx changeset tag #create releases
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGESETS_TOKEN }}
       - run: echo '${{ toJson(steps.changesets.outputs)}}'
